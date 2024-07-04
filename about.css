@@ -520,6 +520,9 @@ footer{
         #carouselExampleCaption{
             margin-top: 43px;
           }
+          #carouselExampleFade{
+            margin-top: 20px;
+          }
        
         #myp{
             padding-top: 100px;
@@ -1098,6 +1101,9 @@ footer{
                 #carouselExampleFade{
                     margin-top: 30px;
                 }
+                #carouselExampleFade{
+                    margin-top: 30px;
+                  }
             .clientserver{
                 display: block;
                 margin-top: 20px;
@@ -1406,6 +1412,9 @@ footer{
         #carouselExampleCaption{
             margin-top: 50px;
           }
+          #carouselExampleFade{
+            margin-top: 30px;
+          }
         #myp{
             padding-top: 150px;
 
@@ -1704,7 +1713,9 @@ footer{
     #carouselExampleCaption{
         margin-top: 50px;
       }
-
+      #carouselExampleFade{
+        margin-top: 24px;
+      }
     #myp{
         padding-top: 150px;
 
@@ -2002,7 +2013,9 @@ footer{
     #carouselExampleCaption{
         margin-top: 50px;
       }
-
+      #carouselExampleFade{
+        margin-top: 30px;
+      }
     #myp{
         padding-top: 150px;
 
