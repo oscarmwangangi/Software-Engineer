@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mm.css">
+</head>
+<body>
+                    <div class="contacts">
+                    <h2 class="text-center mb-4">Contact me</h2>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-5">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Name" required>
+                                <div class="error-txt">Full name cannot be blank</div>
+                            </div>
+                            <div class="form-group col-md-5">
+                                <label for="email">Email Address</label>
+                                <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+                                <div class="error-txt">Email Address cannot be blank</div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-5">
+                                <label for="phone">Phone</label>
+                                <input type="text" class="form-control" id="phone" placeholder="Phone" required>
+                                <div class="error-txt">Phone Number cannot be blank</div>
+                            </div>
+                            <div class="form-group col-md-5">
+                                <label for="subject">Subject</label>
+                                <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                                <div class="error-txt">Subject cannot be blank</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Message" required></textarea>
+                            <div class="error-txt">Message cannot be blank</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form></div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,2208 @@
+body{
+    background-color:#212529;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content{
+    color: aliceblue;
+    display: grid;
+    /* grid-template-rows: 1.5fr 1fr 1fr 1fr 1.5fr ; */
+    gap: 40px;
+    height: fit-content;
+}
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.about{
+        
+    background-color: #2B3035;
+    border-radius: 15px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    padding-left: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-image: url(./njnjn.png);
+    background-size: cover;
+    height: 600px
+    
+}
+#aboutt{
+    height: fit-content;
+}
+.aboutmetext{
+    width: initial;
+    font-size: 20px; 
+}
+
+h1{
+    font-size: 80px;
+    letter-spacing: 3px;
+}
+.project{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 50px;
+    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: fit-content;
+    margin-top: 20px;
+}
+
+.myprojects{
+    
+    border-radius: 15px;
+}
+.Workout-text{
+    margin-right: 70px;
+}
+.heading{
+    
+    padding-left:  80px;
+    
+}
+.clientserver{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: fit-content;
+}
+h2{
+    color: beige;
+}
+.skills{
+     background-color: #2B3035;
+    color: white;
+    padding-left: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+   
+}
+.box{
+ display: flex;
+ justify-content: center;
+    
+}
+.outerbox{
+    height: 400px;
+    width: 400px;
+    border: solid white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 200px;
+    margin-top: 0%;
+}
+.innerbox{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border:solid white;
+    border-radius: 75px;
+    align-items: center; 
+    justify-content: center;
+    font-size: 25px;
+    background-color: pink;
+}
+.line1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+.sql{
+    width: 120px;
+    height: 50px;
+    background-color:pink ;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+    text-align: center;
+   
+}
+.css{
+    width: 120px;
+    height: 50px;
+    background-color:pink ;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    margin-left: 250px;
+    padding-top: 9px;
+}
+.line2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 85px;
+}
+.node{
+    width: 120px;
+    height: 50px;
+    background-color:pink ;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    margin-left: -60px;
+    text-align: center;
+    padding-top: 10px;
+}
+.html{
+    width: 120px;
+    height: 50px;
+    background-color:pink ;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    margin-left: 330px;
+    padding-top: 9px;
+}
+.line3{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 90px;
+}
+.react{
+    width: 120px;
+    height: 50px;
+    background-color:pink ;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    margin-left: -116px;
+    text-align: center;
+    padding-top: 10px;
+}
+.js{
+    width: 120px;
+    height: 50px;
+    background-color:pink ;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    margin-left: 395px;
+    padding-top: 9px;
+}
+.line4{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 90px;
+}
+.graph{
+    width: 120px;
+    height: 50px;
+    background-color:pink ;
+  position: absolute;
+  border: none;
+  border-radius: 10px;
+  margin-left: -60px;
+   text-align: center;
+   padding-top: 10px;
+}
+.photo{
+    width: 120px;
+    height: 50px;
+    background-color:pink ;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    margin-left: 330px;
+    padding-top: 9px;
+}
+.line5{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 85px;
+}
+.java{
+    width: 120px;
+    height: 50px;
+    background-color:pink ;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+    text-align: center;
+    
+}
+.c{
+    width: 120px;
+    height: 50px;
+    background-color:pink ;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    margin-left: 250px;
+    padding-top: 9px;
+}
+.contact{
+    margin-top: -25px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    margin-left: 30px;
+    
+}
+ 
+.rrr{
+    margin-right: 30px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+}
+li:hover{
+    float: left;
+    color: white;
+    opacity: 0.6;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+img:hover{
+   opacity: 0.6;
+}
+.myprojects:hover{
+    filter:hue-rotate(30deg)
+
+}
+.bar{
+    color: white;
+}
+.email{
+    color: green;
+}
+.bar{
+ margin-left: 30px;
+}
+.back-to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    border-radius: 100%;
+    background: #141c38;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+  }
+  .back-to-top-icon {
+    width: 1rem;
+    height: 1rem;
+    color: #7ac9f9;
+  }
+  back-to-top:hover {
+    opacity: 60%;
+  }
+  
+  .progress-bar {
+    height: 1rem;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  textarea{
+    height: 140px;
+    margin-top: 3px;
+  }
+  .mt-60px {
+    margin-top: 40px;
+}
+
+.contacts textarea {
+    height:auto; /* Reset any unwanted height settings */
+    padding: 10px;
+    font-size: 16px;
+}
+.contacts input{
+    height:50px;
+}
+  .contacts{
+    width: 50%; /* Adjust the width as needed */
+    margin: 0 auto;
+  }
+  .error {
+    border-color: red;
+}
+
+.error-txt {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+.form-group.error .error-txt {
+    display: block;
+}
+footer{
+    padding-top: 10px;
+    padding-bottom: 25px;
+    background-color:#191e24;
+   
+}
+@media (min-width: 1501px){
+    body{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+    }
+    .body{
+        width: 1500px;
+    }
+    
+}
+
+    
+
+@media (min-width:900px) and (max-width: 1200px){   
+      
+    .about{ 
+        padding-top: 0px;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        text-align: left;
+        
+        margin-bottom: 0px;
+     } 
+     #aboutt{
+        height: 350px;
+     }
+     
+    .aboutmetext{
+        width:inherit;
+        font-weight:lighter;
+        margin: 0%;
+        padding: 0px;
+        text-align: start;
+        
+     }
+     .project{
+        margin-top: 240px;
+     }
+     #myp{
+        margin-top: 10px;
+     }
+     .text{
+        font-size: 18px;
+     }
+    h1{
+        font-size: 60px;
+    }
+    .Workout-text{
+        margin-right: 0px;
+    }
+    .contacts{
+        /* margin-top: -80px; */
+        width: 60%;
+    } 
+     
+    }
+    @media (min-width:601px) and (max-width: 900px){
+        
+       
+        .about{ 
+            padding-top: 0px;
+            padding-left: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: start;
+            text-align: left;
+            height: 550px;
+         } 
+         
+         #pro{
+            height: fit-content;
+           
+         }
+        .aboutmetext{
+            width:inherit;
+            font-weight:lighter;
+            margin: 0%;
+            
+            padding: 0px;
+            text-align: start;
+            
+         }
+         .text{
+          font-size: 18px;
+         }
+        h1{
+            font-size: 60px;
+        }
+        h2{
+            text-align: start;
+        }
+        #heading-p{
+             margin-right: 30px;
+               
+            }
+           
+        .pro{
+            font-size: 40px;
+           
+        }
+        .project{
+            
+            display: block;
+            position: relative;
+            text-align: start;
+            margin-left: -8px;
+            margin-right: 10px;
+        }
+        img{
+            background-size: cover;
+            display: block;
+        }
+        #p1{
+            height:fit-content;
+            /* margin-top: -180px; */
+            
+        }
+        .myprojects{
+            position: relative;
+            height: fit-content;
+        }
+        
+        .Workout-text{
+            margin-right: 0px;
+        }
+        .beige{
+            display: block;
+            position: absolute;
+            text-align:left;
+            top: 0px;
+            z-index: 1;
+            padding-left: 0px;
+            margin-left: -80px;
+           
+            }
+        .clientserver{
+            display: block;
+            margin-top: 10px;
+            text-align: start;
+            margin-left: 10px;
+            margin-right: 10px;
+            width:fit-content;
+            /* margin-top: -20px; */
+        }
+        #carouselExampleCaption{
+            margin-top: 43px;
+          }
+       
+        #myp{
+            padding-top: 100px;
+            /* margin-top: -50px; */
+        }
+        h5{
+            font-size:30px;
+        }
+        .cli{
+            
+            text-align: start;
+            width:400px;
+        }
+        .skills{
+            margin-top: 70px;
+            padding-top: -5px;
+            height: fit-content;
+        }
+        #skills{
+            height: fit-content;
+        }
+         .contacts{
+            /* margin-top: -80px; */
+            width: 70%;
+        } 
+        .outerbox{
+            height: 300px;
+            width: 300px;
+            border: solid white;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            border-radius: 150px;
+            margin-top: 0%;
+        }
+        .innerbox{
+            display: flex;
+            height: 120px;
+            width: 120px;
+            border:solid white;
+            border-radius: 60px;
+            align-items: center; 
+            justify-content: center;
+            font-size: 25px;
+            background-color: pink;
+        }
+        .line1{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            ;
+            
+        }
+        .sql{
+            width: 100px;
+            height: 40px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 12px;
+            text-align: center;
+            font-size: small;
+           
+        }
+        .css{
+            width: 100px;
+            height: 40px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 200px;
+            padding-top: 9px;
+            font-size: small;
+        }
+        .line2{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 70px;
+        }
+        .node{
+            width: 100px;
+            height: 40px;
+            background-color:pink ;
+          position: absolute;
+          border: none;
+          border-radius: 10px;
+          margin-left: -64px;
+           text-align: center;
+           padding-top: 10px;
+           font-size: small;
+        }
+        .html{
+            width: 100px;
+            height: 40px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 260px;
+            padding-top: 9px;
+            font-size: small;
+        }
+        .line3{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 75px;
+        }
+        .react{
+            width: 100px;
+            height: 40px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: -93px;
+            text-align: center;
+            padding-top: 10px;
+            font-size: small;
+        }
+        .js{
+            width: 100px;
+            height: 40px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 295px;
+            padding-top: 9px;
+        }
+        .line4{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 75px;
+        }
+        .graph{
+            width: 100px;
+            height: 40px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: -64px;
+            text-align: center;
+            padding-top: 10px;
+            font-size: small;
+        }
+        .photo{
+            width: 100px;
+            height: 40px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 260px;
+            padding-top: 9px;
+            font-size: small;
+        }
+        .line5{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .java{
+            width: 100px;
+            height: 40px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 12px;
+            text-align: center;
+            font-size: small;
+            
+        }
+        .c{
+            width: 100px;
+            height: 40px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 200px;
+            padding-top: 9px;
+            font-size: small;
+        }
+    }
+    @media (min-width:450px) and (max-width: 600px){
+         
+        
+        .about{ 
+            padding-top: 0px;
+            padding-left: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: start;
+            text-align: left;
+            height: 500px;
+         } 
+        .aboutmetext{
+            width:inherit;
+            font-weight:lighter;
+            margin: 0%;
+            padding: 0px;
+            text-align: start;
+            
+         }
+         .text{
+             font-size: 14px;
+             
+         }
+         .Workout-text{
+            margin-right: 0px;
+        }
+        
+        h1{
+            font-size: 60px;
+            letter-spacing: 2px;
+            text-align: left;
+        }
+        h2{
+            text-align: start;
+            width: inherit;
+            font-size:25px;
+        }
+        .pro{
+            font-size: 40px;
+            
+        }
+        .project{
+            
+            display: block;
+            position: relative;
+            text-align: start;
+            margin-left: -14px;
+            margin-right: 5px;
+            width:fit-content;
+            font-size: 15px;
+        }
+        img{
+            background-size: cover;
+            display: block;
+        }
+        #p1{
+            height:fit-content;
+
+        }
+        .myprojects{
+            position: relative;
+            
+           
+        }
+        .beige{
+            display: block;
+            position: absolute;
+            text-align:left;
+            top: 0px;
+            z-index: 1;
+            padding-left: 0px;
+            margin-left: -80px;
+            margin-top: 50px;
+           
+            }
+         #heading-p{
+             margin-right: 30px;
+               
+            }
+         #carouselExampleFade{
+            margin-top: 25px;
+            }
+        .clientserver{
+            display: block;
+            margin-top: 20px;
+            text-align: start;
+            margin-left: 3px;
+            margin-right: 5px;
+            width:fit-content;
+        }
+
+        #myp{
+            padding-top: 160px;
+            margin-top: -30px;
+        }
+        #carouselExampleCaption{
+            margin-top: 43px;
+          }
+        
+        h5{
+            font-size:30px;
+        }
+        .cli{
+            
+            text-align: start;
+            width:300px;
+            
+        }
+        .skills{
+            margin-top: 15px;
+            padding-top: -5px;
+            height: 400px;
+           
+        }
+        .contacts{
+            width: 60%;
+        }
+        .contacts-heading{
+            font-size: 50px;
+        }
+        .box{
+            padding-left: -934px;
+        }
+        
+        .outerbox{
+            height: 220px;
+            width: 220px;
+            border: solid white;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            border-radius: 115px;
+            margin-top: 0%;
+        }
+        .innerbox{
+            display: flex;
+            height: 110px;
+            width: 110px;
+            border:solid white;
+            border-radius: 55px;
+            align-items: center; 
+            justify-content: center;
+            font-size: 20px;
+            background-color: pink;
+        }
+        
+        .line1{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            ;
+            
+        }
+        .sql{
+            width: 80px;
+            height: 30px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 3px;
+            text-align: center;
+            font-size: x-small
+           
+        }
+        .css{
+            width: 80px;
+            height: 30px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 140px;
+            padding-top: 9px;
+            font-size: x-small;
+        }
+        .line2{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .node{
+            width: 80px;
+            height: 30px;
+            background-color:pink ;
+          position: absolute;
+          border: none;
+          border-radius: 10px;
+          margin-left: -40px;
+           text-align: center;
+           padding-top: 7px;
+           font-size: x-small;
+        }
+        .html{
+            width: 80px;
+            height: 30px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 180px;
+            padding-top: 7px;
+            font-size: x-small;
+        }
+        .line3{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 55px;
+        }
+        .react{
+            width: 80px;
+            height: 30px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: -78px;
+            text-align: center;
+            padding-top: 7px;
+            font-size: x-small;
+        }
+        .js{
+            width: 80px;
+            height: 30px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 218px;
+            padding-top: 7px;
+            font-size: x-small;
+        }
+        .line4{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 55px;
+        }
+        .graph{
+            width: 80px;
+            height: 30px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: -40px;
+            text-align: center;
+            padding-top: 7px;
+            font-size: x-small;
+        }
+        .photo{
+            width: 80px;
+            height: 30px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 180px;
+            padding-top: 7px;
+            font-size: x-small;
+        }
+        .line5{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 47px;
+        }
+        .java{
+            width: 80px;
+            height: 30px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 3px;
+            text-align: center;
+            font-size: x-small;
+            
+        }
+        .c{
+            width: 80px;
+            height: 30px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 10px;
+            margin-left: 140px;
+            padding-top: 7px;
+            font-size: x-small;
+        }
+    }
+    @media (min-width:401px) and (max-width: 450px){       
+         
+           
+            #bar{
+              
+                min-width: 440px;
+                margin-right:0%;
+            }
+            .about{
+                
+               width: 380px;
+               padding-top: 0px;
+               padding-left: 10px;
+               display: flex;
+               flex-direction: column;
+               justify-content:center;
+               align-items: start;
+               text-align: left;
+               height: 450px;
+            } 
+            .aboutmetext{
+               width:370px ;
+               font-size: 12px;
+               font-weight:lighter;
+               margin: 0%;
+               padding: 0px;
+               text-align: start;
+            }
+            #aboutt{
+                width:400px;
+               
+            }
+            #pro{
+                width: 400px;
+            }
+            .Workout-text{
+                margin-right: 0px;
+                width: inherit;
+            }
+            h1{
+                font-size: 40px;
+                letter-spacing: 2px;
+            }
+            h2{
+                text-align: start;
+            }
+            .pro{
+                font-size: 28px;
+                
+            }
+            .project{
+                
+                padding-right: 0px;
+                display: block;
+                position: relative;
+                text-align: start;
+                margin-left: -14px;
+                margin-right: -14px;
+                width:fit-content;
+                font-size: 15px;
+            }
+            img{
+                background-size: cover;
+                display: block;
+            }
+            #p1{
+                height:fit-content;
+    
+            }
+            .myprojects{
+                position: relative;
+                
+               
+            }
+            .beige{
+                display: block;
+                position: absolute;
+                text-align:left;
+                top: 0px;
+                z-index: 1;
+                padding-left: 0px;
+                margin-left: -80px;
+                margin-top: 0px;
+               
+                }
+                .heading{
+                    width: 450px;
+                }
+                #carouselExampleFade{
+                    margin-top: 30px;
+                }
+            .clientserver{
+                display: block;
+                margin-top: 20px;
+                text-align: start;
+                margin-left: 3px;
+                margin-right: 5px;
+                width:fit-content;
+            }
+            #carouselExampleCaption{
+                margin-top: 50px;
+              }
+    
+            #myp{
+                padding-top: 150px;
+                width:430px;
+    
+            }
+            h5{
+                font-size:30px;
+            }
+            .cli{
+                
+                text-align: start;
+                width:inherit;
+                
+            }
+            .skills{
+                margin-top: 15px;
+                padding-top: -5px;
+                height: 400px;
+               
+            }
+            .contacts{
+                width: 60%;
+            }
+            .contacts-heading{
+                font-size: 45px;
+            }
+            .box{
+                padding-left: -934px;
+
+                
+               
+            }
+            
+            .outerbox{
+                height: 200px;
+                width: 200px;
+                border: solid white;
+                display: flex;
+                align-items:center;
+                justify-content: center;
+                border-radius: 100px;
+                margin-top: 0%;
+            }
+            .innerbox{
+                display: flex;
+                height: 100px;
+                width: 100px;
+                border:solid white;
+                border-radius: 50px;
+                align-items: center; 
+                justify-content: center;
+                font-size: 20px;
+                background-color: pink;
+            }
+            
+            .line1{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                ;
+                margin-top: -10px;
+            }
+            .sql{
+                width: 80px;
+                height: 30px;
+                background-color:pink ;
+                position: absolute;
+                border: none;
+                border-radius: 10px;
+                margin-left: 3px;
+                text-align: center;
+                font-size: x-small
+               
+            }
+            .css{
+                width: 80px;
+                height: 30px;
+                background-color:pink ;
+                position: absolute;
+                border: none;
+                border-radius: 10px;
+                margin-left: 120px;
+                padding-top: 9px;
+                font-size: x-small;
+            }
+            .line2{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                margin-top: 45px;
+            }
+            .node{
+                width: 80px;
+                height: 30px;
+                background-color:pink ;
+              position: absolute;
+              border: none;
+              border-radius: 10px;
+              margin-left: -40px;
+               text-align: center;
+               padding-top: 7px;
+               font-size: x-small;
+            }
+            .html{
+                width: 80px;
+                height: 30px;
+                background-color:pink ;
+                position: absolute;
+                border: none;
+                border-radius: 10px;
+                margin-left: 155px;
+                padding-top: 7px;
+                font-size: x-small;
+            }
+            .line3{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                margin-top: 50px;
+            }
+            .react{
+                width: 80px;
+                height: 30px;
+                background-color:pink ;
+                position: absolute;
+                border: none;
+                border-radius: 10px;
+                margin-left: -76px;
+                text-align: center;
+                padding-top: 7px;
+                font-size: x-small;
+            }
+            .js{
+                width: 80px;
+                height: 30px;
+                background-color:pink ;
+                position: absolute;
+                border: none;
+                border-radius: 10px;
+                margin-left: 196px;
+                padding-top: 7px;
+                font-size: x-small;
+            }
+            .line4{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                margin-top: 50px;
+            }
+            .graph{
+                width: 80px;
+                height: 30px;
+                background-color:pink ;
+                position: absolute;
+                border: none;
+                border-radius: 10px;
+                margin-left: -40px;
+                text-align: center;
+                padding-top: 7px;
+                font-size: x-small;
+            }
+            .photo{
+                width: 80px;
+                height: 30px;
+                background-color:pink ;
+                position: absolute;
+                border: none;
+                border-radius: 10px;
+                margin-left: 155px;
+                padding-top: 7px;
+                font-size: x-small;
+            }
+            .line5{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                margin-top: 48px;
+            }
+            .java{
+                width: 80px;
+                height: 30px;
+                background-color:pink ;
+                position: absolute;
+                border: none;
+                border-radius: 10px;
+                margin-left: 3px;
+                text-align: center;
+                font-size: x-small;
+                
+            }
+            .c{
+                width: 80px;
+                height: 30px;
+                background-color:pink ;
+                position: absolute;
+                border: none;
+                border-radius: 10px;
+                margin-left: 120px;
+                padding-top: 7px;
+                font-size: x-small;
+            }
+    }
+    @media (min-width:370px) and (max-width: 400px){
+       
+        #bar{
+            width: 400px;
+        }
+        .about{
+           width: fit-content;
+           padding-top: 0px;
+           padding-left: 10px;
+           display: flex;
+           flex-direction: column;
+           justify-content:center;
+           align-items: start;
+           text-align: left;
+           height: 400px;
+        } 
+       
+      
+        .aboutmetext{
+           width:325px ;
+           font-weight:lighter;
+           margin: 0%;
+           padding: 0px;
+           text-align: start;
+           
+        }
+        .Workout-text{
+            margin-right: 0px;
+        }
+        .text{
+            font-size: 10px;
+            letter-spacing: normal;
+            font-weight:360;
+        }
+        h1{
+            text-align: left;
+            font-size: 40px;
+            letter-spacing: 2px;
+        }
+        h2{
+            text-align: start;
+        }
+        .pro{
+            font-size: 28px;
+            
+        }
+        .project{
+            
+            display: block;
+            position: relative;
+            text-align: start;
+            margin-left: -14px;
+            margin-right: -14px;
+            width:fit-content;
+            font-size: 15px;
+        }
+        img{
+            background-size: cover;
+            display: block;
+        }
+        #p1{
+            height:fit-content;
+           
+        }
+        .myprojects{
+            position: relative;
+         
+           
+        }
+        .beige{
+            display: block;
+            position: absolute;
+            text-align:left;
+            top: 0px;
+            z-index: 1;
+            padding-left: 0px;
+            margin-left: -80px;
+            margin-top: 0px;
+           
+            }
+            .heading{
+                width: 390px;
+            }
+        .clientserver{
+            display: block;
+            margin-top: 20px;
+            text-align: start;
+            margin-left: 3px;
+            margin-right: 5px;
+            width:fit-content;
+        }
+        #carouselExampleCaption{
+            margin-top: 50px;
+          }
+        #myp{
+            padding-top: 150px;
+
+        }
+        h5{
+            font-size:30px;
+        }
+        p{
+            font-size: 13px;
+        }
+        .cli{
+            
+            text-align: start;
+            width:300px;
+            
+        }
+        .skills{
+            margin-top: 15px;
+            padding-top: -5px;
+            height: 360px;
+           
+        }
+        .contacts{
+            width: 60%;
+        }
+        .box{
+            padding-left: -934px;
+
+            
+           
+        }
+        
+        .outerbox{
+            height: 150px;
+            width: 150px;
+            border: solid white;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            border-radius: 75px;
+            margin-top: 0%;
+        }
+        .innerbox{
+            display: flex;
+            height: 70px;
+            width: 70px;
+            border:solid white;
+            border-radius: 35px;
+            align-items: center; 
+            justify-content: center;
+            font-size: 14px;
+            background-color: pink;
+        }
+        
+        .line1{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: -4px;
+        }
+        .sql{
+            width: 50px;
+            height: 14px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 5px;
+            margin-left: 6px;
+            text-align: center;
+            font-size:5px;
+            padding-top: 2px;
+            
+        }
+        .css{
+            width: 50px;
+            height: 14px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 5px;
+            margin-left: 90px;
+            text-align: center;
+            font-size:7px;
+            padding-top:2px;
+        }
+        .line2{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 35px;
+        }
+        .node{
+            width: 50px;
+            height: 14px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 5px;
+            margin-left: -20px;
+            text-align: center;
+            padding-top: 2px;
+            font-size: 7px;
+        }
+        .html{
+            width: 50px;
+            height: 14px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 5px;
+            margin-left: 115px;
+            padding-top: 2px;
+            font-size: 7px;
+        }
+        .line3{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .react{
+            width: 50px;
+            height: 14px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 5px;
+            margin-left: -49px;
+            text-align: center;
+            padding-top: 2px;
+            font-size: 7px;
+        }
+        .js{
+            width: 50px;
+            height: 14px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 5px;
+            margin-left: 149px;
+            padding-top: 2px;
+            font-size: 7px;
+        }
+        .line4{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top:35px;
+        }
+        .graph{
+            width: 50px;
+            height: 14px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 5px;
+            margin-left: -20px;
+            text-align: center;
+            padding-top: 2px;
+            font-size: 7px;
+        }
+        .photo{
+            width: 50px;
+            height: 14px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 5px;
+            margin-left: 115px;
+            padding-top: 2px;
+            font-size: 7px;
+        }
+        .line5{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-top: 33px;
+        }
+        .java{
+            width: 50px;
+            height: 14px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 2px;
+            margin-left: 5px;
+            text-align: center;
+            font-size: 6px;
+            padding-top: 2px;
+        }
+        .c{
+            width: 50px;
+            height: 14px;
+            background-color:pink ;
+            position: absolute;
+            border: none;
+            border-radius: 2px;
+            margin-left: 90px;
+            font-size: 5px;
+            padding:0%;
+            padding-top: 3px;
+        }
+}
+    
+@media (min-width:300px) and (max-width: 370px){
+       
+    #bar{
+        width: 400px;
+    }
+    .about{
+       width: fit-content;
+       padding-top: 0px;
+       padding-left: 10px;
+       display: flex;
+       flex-direction: column;
+       justify-content:center;
+       align-items: start;
+       text-align: left;
+       height: 370px;
+    } 
+   
+  
+    .aboutmetext{
+       width:325px ;
+       font-weight:lighter;
+       margin: 0%;
+       padding: 0px;
+       text-align: start;
+       
+    }
+    .Workout-text{
+        margin-right: 0px;
+    }
+    .text{
+        font-size: 10px;
+        letter-spacing: normal;
+        font-weight:360;
+    }
+    h1{
+        text-align: left;
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+    h2{
+        text-align: start;
+    }
+    .pro{
+        font-size: 28px;
+        
+    }
+    .project{
+        
+        display: block;
+        position: relative;
+        text-align: start;
+        margin-left: -14px;
+        margin-right: -14px;
+        width:fit-content;
+        font-size: 15px;
+    }
+    img{
+        background-size: cover;
+        display: block;
+    }
+    #p1{
+        height:fit-content;
+       
+    }
+    .myprojects{
+        position: relative;
+     
+       
+    }
+    .beige{
+        display: block;
+        position: absolute;
+        text-align:left;
+        top: 0px;
+        z-index: 1;
+        padding-left: 0px;
+        margin-left: -80px;
+        margin-top: 0px;
+       
+        }
+        .heading{
+            width: 390px;
+        }
+    .clientserver{
+        display: block;
+        margin-top: 20px;
+        text-align: start;
+        margin-left: 3px;
+        margin-right: 5px;
+        width:fit-content;
+    }
+    #carouselExampleCaption{
+        margin-top: 50px;
+      }
+
+    #myp{
+        padding-top: 150px;
+
+    }
+    h5{
+        font-size:30px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .cli{
+        
+        text-align: start;
+        width:300px;
+        
+    }
+    .skills{
+        margin-top: 15px;
+        padding-top: -5px;
+        height: 360px;
+       
+    }
+    .contacts{
+        width: 60%;
+    }
+    .box{
+        padding-left: -934px;
+
+        
+       
+    }
+    
+    .outerbox{
+        height: 150px;
+        width: 150px;
+        border: solid white;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        border-radius: 75px;
+        margin-top: 0%;
+    }
+    .innerbox{
+        display: flex;
+        height: 70px;
+        width: 70px;
+        border:solid white;
+        border-radius: 35px;
+        align-items: center; 
+        justify-content: center;
+        font-size: 14px;
+        background-color: pink;
+    }
+    
+    .line1{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top: -4px;
+    }
+    .sql{
+        width: 50px;
+        height: 14px;
+        background-color:pink ;
+        position: absolute;
+        border: none;
+        border-radius: 5px;
+        margin-left: 6px;
+        text-align: center;
+        font-size:5px;
+        padding-top: 2px;
+        
+    }
+    .css{
+        width: 50px;
+        height: 14px;
+        background-color:pink ;
+        position: absolute;
+        border: none;
+        border-radius: 5px;
+        margin-left: 90px;
+        text-align: center;
+        font-size:7px;
+        padding-top:2px;
+    }
+    .line2{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top: 35px;
+    }
+    .node{
+        width: 50px;
+        height: 14px;
+        background-color:pink ;
+        position: absolute;
+        border: none;
+        border-radius: 5px;
+        margin-left: -20px;
+        text-align: center;
+        padding-top: 2px;
+        font-size: 7px;
+    }
+    .html{
+        width: 50px;
+        height: 14px;
+        background-color:pink ;
+        position: absolute;
+        border: none;
+        border-radius: 5px;
+        margin-left: 115px;
+        padding-top: 2px;
+        font-size: 7px;
+    }
+    .line3{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .react{
+        width: 50px;
+        height: 14px;
+        background-color:pink ;
+        position: absolute;
+        border: none;
+        border-radius: 5px;
+        margin-left: -49px;
+        text-align: center;
+        padding-top: 2px;
+        font-size: 7px;
+    }
+    .js{
+        width: 50px;
+        height: 14px;
+        background-color:pink ;
+        position: absolute;
+        border: none;
+        border-radius: 5px;
+        margin-left: 149px;
+        padding-top: 2px;
+        font-size: 7px;
+    }
+    .line4{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top:35px;
+    }
+    .graph{
+        width: 50px;
+        height: 14px;
+        background-color:pink ;
+        position: absolute;
+        border: none;
+        border-radius: 5px;
+        margin-left: -20px;
+        text-align: center;
+        padding-top: 2px;
+        font-size: 7px;
+    }
+    .photo{
+        width: 50px;
+        height: 14px;
+        background-color:pink ;
+        position: absolute;
+        border: none;
+        border-radius: 5px;
+        margin-left: 115px;
+        padding-top: 2px;
+        font-size: 7px;
+    }
+    .line5{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top: 33px;
+    }
+    .java{
+        width: 50px;
+        height: 14px;
+        background-color:pink ;
+        position: absolute;
+        border: none;
+        border-radius: 2px;
+        margin-left: 5px;
+        text-align: center;
+        font-size: 6px;
+        padding-top: 2px;
+    }
+    .c{
+        width: 50px;
+        height: 14px;
+        background-color:pink ;
+        position: absolute;
+        border: none;
+        border-radius: 2px;
+        margin-left: 90px;
+        font-size: 5px;
+        padding:0%;
+        padding-top: 3px;
+    }
+}
+@media  (max-width: 300px){
+       
+    #bar{
+        width: 400px;
+    }
+    .about{
+       width: fit-content;
+       padding-top: 0px;
+       padding-left: 10px;
+       display: flex;
+       flex-direction: column;
+       justify-content:center;
+       align-items: start;
+       text-align: left;
+       height: 280px;
+    } 
+   
+  
+    .aboutmetext{
+       width:325px ;
+       font-weight:lighter;
+       margin: 0%;
+       padding: 0px;
+       text-align: start;
+       
+    }
+    .Workout-text{
+        margin-right: 0px;
+    }
+    .text{
+        font-size: 10px;
+        letter-spacing: normal;
+        font-weight:360;
+    }
+    h1{
+        text-align: left;
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+    h2{
+        text-align: start;
+    }
+    .pro{
+        font-size: 28px;
+        
+    }
+    .project{
+        
+        display: block;
+        position: relative;
+        text-align: start;
+        margin-left: -14px;
+        margin-right: -14px;
+        width:fit-content;
+        font-size: 15px;
+    }
+    img{
+        background-size: cover;
+        display: block;
+    }
+    #p1{
+        height:fit-content;
+       
+    }
+    .myprojects{
+        position: relative;
+     
+       
+    }
+    .beige{
+        display: block;
+        position: absolute;
+        text-align:left;
+        top: 0px;
+        z-index: 1;
+        padding-left: 0px;
+        margin-left: -80px;
+        margin-top: 0px;
+       
+        }
+        .heading{
+            width: 390px;
+        }
+    .clientserver{
+        display: block;
+        margin-top: 20px;
+        text-align: start;
+        margin-left: 3px;
+        margin-right: 5px;
+        width:fit-content;
+    }
+    #carouselExampleCaption{
+        margin-top: 50px;
+      }
+
+    #myp{
+        padding-top: 150px;
+
+    }
+    h5{
+        font-size:30px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .cli{
+        
+        text-align: start;
+        width:300px;
+        
+    }
+    .skills{
+        margin-top: 15px;
+        padding-top: -5px;
+        height: 360px;
+       
+    }
+    .contacts{
+        width: 60%;
+    }
+    .box{
+        padding-left: -934px;
+
+        
+       
+    }
+    
+    .outerbox{
+        height: 150px;
+        width: 150px;
+        border: solid white;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        border-radius: 75px;
+        margin-top: 0%;
+    }
+    .innerbox{
+        display: flex;
+        height: 70px;
+        width: 70px;
+        border:solid white;
+        border-radius: 35px;
+        align-items: center; 
+        justify-content: center;
+        font-size: 14px;
+        background-color: pink;
+    }
+    
+    .line1{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top: -4px;
+    }
+    .sql{
+        width: 50px;
+        height: 14px;
+        background-color:pink ;
+        position: absolute;
+        border: none;
+        border-radius: 5px;
+        margin-left: 6px;
+        text-align: center;
+        font-size:5px;
+        padding-top: 2px;
+        
+    }
+    .css{
+        width: 50px;
+        height: 14px;
+        background-color:pink ;
+        position: absolute;
+        border: none;
+        border-radius: 5px;
+        margin-left: 90px;
+        text-align: center;
+        font-size:7px;
+        padding-top:2px;
+    }
+    .line2{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top: 35px;
+    }
+    .node{
+        width: 50px;
+        height: 14px;
+        background-color:pink ;
+        position: absolute;
+        border: none;
+        border-radius: 5px;
+        margin-left: -20px;
+        text-align: center;
+        padding-top: 2px;
+        font-size: 7px;
+    }
+    .html{
+        width: 50px;
+        height: 14px;
+        background-color:pink ;
+        position: absolute;
+        border: none;
+        border-radius: 5px;
+        margin-left: 115px;
+        padding-top: 2px;
+        font-size: 7px;
+    }
+    .line3{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .react{
+        width: 50px;
+        height: 14px;
+        background-color:pink ;
+        position: absolute;
+        border: none;
+        border-radius: 5px;
+        margin-left: -49px;
+        text-align: center;
+        padding-top: 2px;
+        font-size: 7px;
+    }
+    .js{
+        width: 50px;
+        height: 14px;
+        background-color:pink ;
+        position: absolute;
+        border: none;
+        border-radius: 5px;
+        margin-left: 149px;
+        padding-top: 2px;
+        font-size: 7px;
+    }
+    .line4{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top:35px;
+    }
+    .graph{
+        width: 50px;
+        height: 14px;
+        background-color:pink ;
+        position: absolute;
+        border: none;
+        border-radius: 5px;
+        margin-left: -20px;
+        text-align: center;
+        padding-top: 2px;
+        font-size: 7px;
+    }
+    .photo{
+        width: 50px;
+        height: 14px;
+        background-color:pink ;
+        position: absolute;
+        border: none;
+        border-radius: 5px;
+        margin-left: 115px;
+        padding-top: 2px;
+        font-size: 7px;
+    }
+    .line5{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top: 33px;
+    }
+    .java{
+        width: 50px;
+        height: 14px;
+        background-color:pink ;
+        position: absolute;
+        border: none;
+        border-radius: 2px;
+        margin-left: 5px;
+        text-align: center;
+        font-size: 6px;
+        padding-top: 2px;
+    }
+    .c{
+        width: 50px;
+        height: 14px;
+        background-color:pink ;
+        position: absolute;
+        border: none;
+        border-radius: 2px;
+        margin-left: 90px;
+        font-size: 5px;
+        padding:0%;
+        padding-top: 3px;
+    }
+}
