@@ -289,10 +289,10 @@ li:hover{
 img:hover{
    opacity: 0.6;
 }
-.myprojects:hover{
+/* .myprojects:hover{
     filter:hue-rotate(30deg)
 
-}
+} */
 .bar{
     color: white;
 }
@@ -534,7 +534,7 @@ footer{
         .cli{
             
             text-align: start;
-            width:400px;
+            width:500px;
         }
         .skills{
             margin-top: 70px;
@@ -822,7 +822,7 @@ footer{
         .cli{
             
             text-align: start;
-            width:300px;
+            width:500px;
             
         }
         .skills{
@@ -879,7 +879,7 @@ footer{
             border-radius: 10px;
             margin-left: 3px;
             text-align: center;
-            font-size: x-small
+            font-size: 11px
            
         }
         .css{
@@ -891,7 +891,7 @@ footer{
             border-radius: 10px;
             margin-left: 140px;
             padding-top: 9px;
-            font-size: x-small;
+            font-size: 11px;
         }
         .line2{
             display: flex;
@@ -909,7 +909,7 @@ footer{
           margin-left: -40px;
            text-align: center;
            padding-top: 7px;
-           font-size: x-small;
+           font-size: small;
         }
         .html{
             width: 80px;
@@ -920,7 +920,7 @@ footer{
             border-radius: 10px;
             margin-left: 180px;
             padding-top: 7px;
-            font-size: x-small;
+            font-size: small;
         }
         .line3{
             display: flex;
@@ -938,7 +938,7 @@ footer{
             margin-left: -78px;
             text-align: center;
             padding-top: 7px;
-            font-size: x-small;
+            font-size: 11px;
         }
         .js{
             width: 80px;
@@ -949,7 +949,7 @@ footer{
             border-radius: 10px;
             margin-left: 218px;
             padding-top: 7px;
-            font-size: x-small;
+            font-size: 11px;
         }
         .line4{
             display: flex;
@@ -967,7 +967,7 @@ footer{
             margin-left: -40px;
             text-align: center;
             padding-top: 7px;
-            font-size: x-small;
+            font-size: 11px;
         }
         .photo{
             width: 80px;
@@ -978,7 +978,7 @@ footer{
             border-radius: 10px;
             margin-left: 180px;
             padding-top: 7px;
-            font-size: x-small;
+            font-size: 11px;
         }
         .line5{
             display: flex;
@@ -995,7 +995,7 @@ footer{
             border-radius: 10px;
             margin-left: 3px;
             text-align: center;
-            font-size: x-small;
+            font-size: 11px;
             
         }
         .c{
@@ -1007,7 +1007,7 @@ footer{
             border-radius: 10px;
             margin-left: 140px;
             padding-top: 7px;
-            font-size: x-small;
+            font-size: 11px;
         }
     }
     @media (min-width:401px) and (max-width: 450px){       
@@ -1187,7 +1187,7 @@ footer{
                 border-radius: 10px;
                 margin-left: 3px;
                 text-align: center;
-                font-size: x-small
+                font-size: 11px
                
             }
             .css{
@@ -1199,7 +1199,7 @@ footer{
                 border-radius: 10px;
                 margin-left: 120px;
                 padding-top: 9px;
-                font-size: x-small;
+                font-size: 11px;
             }
             .line2{
                 display: flex;
@@ -1217,7 +1217,7 @@ footer{
               margin-left: -40px;
                text-align: center;
                padding-top: 7px;
-               font-size: x-small;
+               font-size: 11px;
             }
             .html{
                 width: 80px;
@@ -1228,7 +1228,7 @@ footer{
                 border-radius: 10px;
                 margin-left: 155px;
                 padding-top: 7px;
-                font-size: x-small;
+                font-size: 11px;
             }
             .line3{
                 display: flex;
@@ -1246,7 +1246,7 @@ footer{
                 margin-left: -76px;
                 text-align: center;
                 padding-top: 7px;
-                font-size: x-small;
+                font-size: 11px;
             }
             .js{
                 width: 80px;
@@ -1257,7 +1257,7 @@ footer{
                 border-radius: 10px;
                 margin-left: 196px;
                 padding-top: 7px;
-                font-size: x-small;
+                font-size: 11px;
             }
             .line4{
                 display: flex;
@@ -1275,7 +1275,7 @@ footer{
                 margin-left: -40px;
                 text-align: center;
                 padding-top: 7px;
-                font-size: x-small;
+                font-size: 11px;
             }
             .photo{
                 width: 80px;
@@ -1286,7 +1286,7 @@ footer{
                 border-radius: 10px;
                 margin-left: 155px;
                 padding-top: 7px;
-                font-size: x-small;
+                font-size: 11px;
             }
             .line5{
                 display: flex;
@@ -1303,7 +1303,7 @@ footer{
                 border-radius: 10px;
                 margin-left: 3px;
                 text-align: center;
-                font-size: x-small;
+                font-size: 11px;
                 
             }
             .c{
@@ -1315,7 +1315,7 @@ footer{
                 border-radius: 10px;
                 margin-left: 120px;
                 padding-top: 7px;
-                font-size: x-small;
+                font-size: 11px;
             }
     }
     @media (min-width:370px) and (max-width: 400px){
